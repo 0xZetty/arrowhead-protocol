@@ -4,6 +4,12 @@
 
 ArrowHead is a specialized diagnostic utility and stress-testing protocol designed exclusively for **Robinhood Chain (RHC)**. It acts as an on-chain probe, executing atomic "Arrow Shots" to benchmark the network's true performance (sequencer latency, gas volatility) from a developer's perspective.
 
+## 🔗 Deployed Contract (RHC Testnet)
+
+- **ArrowHead Contract:** `0x1B0e19e2fe0BacF53B4F7ba3c8BF95162dfF4FbC`
+- **Status:** Verified on Blockscout ✅
+- **Network:** Arbitrum Orbit (RHC Testnet)
+
 ## ⚡ Key Features
 
 - **Sequencer Stress Test:** Generates controlled transaction bursts to measure sequencer responsiveness under load.
@@ -20,3 +26,8 @@ ArrowHead is a specialized diagnostic utility and stress-testing protocol design
 ## 🚀 Usage (Alpha)
 
 This project is currently under active development for the **Arbitrum Open House 2026**.
+
+To shoot an arrow (generate latency data):
+
+```bash
+python arrow_shooter.py
